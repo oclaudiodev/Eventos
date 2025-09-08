@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 6px black;
+    
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.navegacao{
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    background-color: #090C08;
+    height: auto;
+    width: 250px;
+    h2,h3,p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:#FFF8F0 ;
+    }
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.cardM{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    div{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #FFF8F0;
+    }
+    height: 300px;
+}
+
+footer{
+    background-color: #090C08;
+}
+
+.logo{
+    height: 60px;
+    width: 70px;
+}
+.fim{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FFF8F0;
+}
+
+
+
+.butao{
+    background-color: #791E94;
+    padding: 10px;
+    color: #FFF8F0;
+    border: #791E94;
+    border-radius: 3px;
+    margin-bottom:60px ;
+}
