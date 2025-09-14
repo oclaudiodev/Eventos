@@ -1,0 +1,75 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.conteudo {
+    flex: 1;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        width: 400px;
+        padding: 8px;
+        border-radius: 10px;
+    }
+}
+
+.espaco {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.butoes {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+    p {
+        font-weight: 900;
+    }
+
+    button {
+        padding: 10px 15px;
+        border-radius: 3px;
+        color: #FFF8F0;
+        background-color: #791E94;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+footer {
+    background-color: #FFF8F0;
+    padding: 20px 0;
+    text-align: center;
+
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .logo {
+            height: 60px;
+        }
+
+        div {
+            text-align: left;
+        }
+    }
+
+    .fim {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #FFF8F0;
+    }
+}
